@@ -76,11 +76,11 @@ mvn spring-boot:run
 - Logs des opérations sensibles
 
 ## 📱 Captures d'écran
-![Capture d'écran](screenshots/screenshot1.png)
-![Capture d'écran](screenshots/screenshot2.png)
-![Capture d'écran](screenshots/screenshot3.png)
-![Capture d'écran](screenshots/screenshot4.png)
-![Capture d'écran](screenshots/screenshot5.png)
+![Capture d'écran](/screenshot1.png)
+![Capture d'écran](/screenshot2.png)
+![Capture d'écran](/screenshot3.png)
+![Capture d'écran](/screenshot4.png)
+![Capture d'écran](/screenshot5.png)
 
 
 ## 🤝 Contribution

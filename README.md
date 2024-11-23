@@ -42,17 +42,14 @@ Une application bancaire moderne et sécurisée permettant la gestion complète 
 ## 📦 Installation
 
 1. Cloner le repository
-bash
-git clone [votre-repo-url]
+git clone https://github.com/RebaiFedi/AppBancaire.git
 
 2. Installation des dépendances Frontend
-bash
 cd frontend
 npm install
 
 
 3. Installation des dépendances Backend
-bash
 cd backend
 mvn install
 
@@ -64,12 +61,10 @@ mvn install
 ## 🚀 Démarrage
 
 ### Frontend
-bash
 cd frontend
 npm start
 
 ### Backend
-bash
 cd backend
 mvn spring-boot:run
 
@@ -81,7 +76,7 @@ mvn spring-boot:run
 - Logs des opérations sensibles
 
 ## 📱 Captures d'écran
-[Ajouter quelques captures d'écran de l'application]
+
 
 ## 🤝 Contribution
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou soumettre une pull request.

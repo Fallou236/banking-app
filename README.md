@@ -42,7 +42,7 @@ Une application bancaire moderne et sécurisée permettant la gestion complète 
 ## 📦 Installation
 
 1. Cloner le repository
-git clone https://github.com/Fallou236/backing-app.git
+git clone [https://github.com/Fallou236/backing-app.git](https://github.com/Fallou236/banking-app.git)
 
 2. Installation des dépendances Frontend
 cd frontend

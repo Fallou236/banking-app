@@ -42,7 +42,7 @@ Une application bancaire moderne et sécurisée permettant la gestion complète 
 ## 📦 Installation
 
 1. Cloner le repository
-git clone https://github.com/RebaiFedi/AppBancaire.git
+git clone https://github.com/Fallou236/backing-app.git
 
 2. Installation des dépendances Frontend
 cd frontend
@@ -74,46 +74,6 @@ mvn spring-boot:run
 - Validation des transactions
 - Protection contre les attaques par force brute
 - Logs des opérations sensibles
-
-## 📱 Captures d'écran
-![Capture d'écran](AppBancaire/1.png)
-![Capture d'écran](AppBancaire/2.png)
-![Capture d'écran](AppBancaire/3.png)
-![Capture d'écran](AppBancaire/4.png)
-![Capture d'écran](AppBancaire/5.png)
-![Capture d'écran](AppBancaire/6.png)
-![Capture d'écran](AppBancaire/7.png)
-![Capture d'écran](AppBancaire/8.png)
-![Capture d'écran](AppBancaire/9.png)
-![Capture d'écran](AppBancaire/10.png)
-![Capture d'écran](AppBancaire/11.png)
-![Capture d'écran](AppBancaire/12.png)
-![Capture d'écran](AppBancaire/13.png)
-![Capture d'écran](AppBancaire/14.png)
-![Capture d'écran](AppBancaire/15.png)
-![Capture d'écran](AppBancaire/16.png)
-![Capture d'écran](AppBancaire/17.png)
-![Capture d'écran](AppBancaire/18.png)
-![Capture d'écran](AppBancaire/19.png)
-![Capture d'écran](AppBancaire/20.png)
-![Capture d'écran](AppBancaire/21.png)
-![Capture d'écran](AppBancaire/22.png)
-![Capture d'écran](AppBancaire/23.png)
-![Capture d'écran](AppBancaire/24.png)
-![Capture d'écran](AppBancaire/25.png)
-![Capture d'écran](AppBancaire/26.png)
-![Capture d'écran](AppBancaire/27.png)
-![Capture d'écran](AppBancaire/28.png)
-![Capture d'écran](AppBancaire/29.png)
-![Capture d'écran](AppBancaire/30.png)
-![Capture d'écran](AppBancaire/31.png)
-![Capture d'écran](AppBancaire/32.png)
-![Capture d'écran](AppBancaire/33.png)
-![Capture d'écran](AppBancaire/34.png)
-![Capture d'écran](AppBancaire/35.png)
-![Capture d'écran](AppBancaire/36.png)
-![Capture d'écran](AppBancaire/37.png)
-
 
 
 ## 🤝 Contribution

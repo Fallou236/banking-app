@@ -86,7 +86,7 @@ const Navbar: React.FC<NavbarProps> = ({ isLoggedIn, onLogout, username, userRol
                 
                 <div className="flex items-center ml-3">
                   <span className="text-xl text-white font-exo font-bold leading-none tracking-wide mt-[2px]">
-                    DevByFedi
+                    L2iBank
                   </span>
                 </div>
               </div>

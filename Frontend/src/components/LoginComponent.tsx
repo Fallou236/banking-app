@@ -84,10 +84,10 @@ export default function LoginComponent({ onLogin }: LoginProps) {
               </div>
             </div>
             <h2 className="text-2xl font-display font-bold text-gray-900">
-              DevByFedi
+              L2iBank
             </h2>
             <p className="text-sm text-gray-600 mt-1">
-              Banking System
+              Système bancaire
             </p>
           </div>
 

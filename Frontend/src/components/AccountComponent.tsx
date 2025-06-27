@@ -99,9 +99,9 @@ interface BankCard {
 
 // Fonctions utilitaires (pas de hooks ici)
 const formatCurrency = (amount: number): string => {
-  return new Intl.NumberFormat('fr-TN', {
+  return new Intl.NumberFormat('fr-FR', {
     style: 'currency',
-    currency: 'TND',
+    currency: 'XOF',
     minimumFractionDigits: 3,
     maximumFractionDigits: 3
   }).format(amount);
@@ -120,7 +120,7 @@ const formatMontantPropre = (montant: number, type?: string) => {
   // Ajouter les millimes (3 décimales pour le dinar tunisien)
   const millimes = (nombreAbsolu % 1).toFixed(3).substring(2);
   
-  return `${signe}${partieEntiere}.${millimes} TND`;
+  return `${signe}${partieEntiere}.${millimes} XOF`;
 };
 
 const fetchAccounts = async (): Promise<Account[]> => {
@@ -542,7 +542,7 @@ const generatePDF = async (account: Account) => {
     pdf.setTextColor(255, 255, 255);
     pdf.setFontSize(20);
     pdf.setFont('helvetica', 'bold');
-    pdf.text('DevByFedi Bank', 15, 20);
+    pdf.text('L2i Bank', 15, 20);
     pdf.setFontSize(12);
     pdf.text('Relevé de compte', 15, 30);
 
@@ -1600,7 +1600,7 @@ const generatePDF = async (account: Account) => {
                           transaction.type === 'ACCOUNT_CLOSURE' ? 'text-gray-600' : 'text-blue-600'
                         }`}>
                           {transaction.type === 'DEPOSIT' || transaction.type === 'CREDIT' || transaction.fromAccount === 'CASH' ? '+' : '-'}
-                          {transaction.amount.toFixed(3)} TND
+                          {transaction.amount.toFixed(3)} XOF
                         </span>
                         <p className="text-sm text-gray-500 mt-1">
                           {transaction.type === 'DEPOSIT' || transaction.fromAccount === 'CASH' ? 'Dépôt en espèces' :
@@ -2640,7 +2640,7 @@ const generatePDF = async (account: Account) => {
                   Montant
                 </label>
                 <div className="relative">
-                  <span className="absolute left-3 top-2.5 text-gray-500 text-sm">TND</span>
+                  <span className="absolute left-3 top-2.5 text-gray-500 text-sm">XOF</span>
                   <input
                     type="number"
                     step="0.001"
@@ -2817,7 +2817,7 @@ const generatePDF = async (account: Account) => {
                     Montant
                   </label>
                   <div className="relative">
-                    <span className="absolute left-3 top-2 text-gray-500">TND</span>
+                    <span className="absolute left-3 top-2 text-gray-500">XOF</span>
                     <input
                       type="number"
                       step="0.001"  // Modifier pour supporter les millimes

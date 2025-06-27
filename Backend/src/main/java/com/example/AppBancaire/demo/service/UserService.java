@@ -145,6 +145,7 @@ public class UserService {
                 admin.setRole("ROLE_ADMIN");
                 admin.setEmail("admin@bank.com");
                 admin.setFullName("Administrator");
+                admin.setAddress("Ziguinchor");
                 userRepository.save(admin);
             }
             
@@ -156,6 +157,7 @@ public class UserService {
                 cashier.setRole("ROLE_CASHIER");
                 cashier.setEmail("cashier@bank.com");
                 cashier.setFullName("Bank Cashier");
+                cashier.setAddress("Ziguinchor");;
                 userRepository.save(cashier);
             }
         } catch (Exception e) {
